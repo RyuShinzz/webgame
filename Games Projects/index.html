@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Game Project</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="./src/style/global.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="score"></div>
+      <canvas id="game" width="375" height="375"></canvas>
+      <div id="introduction">Hold down the mouse to stretch out a stick</div>
+      <div id="perfect">DOUBLE SCORE</div>
+      <button id="restart">RESTART</button>
+    </div>
+    <audio controls>
+      <source src="./src/assets/sound/music_zapsplat_easy_cheesy.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/classes/Player.js"></script>
+  </body>
+</html>
